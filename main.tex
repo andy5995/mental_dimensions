@@ -1,11 +1,22 @@
-\documentclass[openright,draft,titlepage]{book}
+\documentclass[12pt,openright,draft,titlepage]{book}
 \usepackage[utf8]{inputenc}
+
+% file:///usr/share/texstudio/latex2e.html#fontenc-package
+%\usepackage[font_encoding]{fontenc}
+
+% Use with xelatex or lualatex (doesn't work)
+\usepackage{fontspec}
+\setmainfont{Arial}
+
 % \DeclareUnicodeCharacter{9788}{\textbf{\char"263C}}
-\usepackage{graphicx}
+% \usepackage{graphicx}
 % \DeclareUnicodeCharacter{9788}{\char"263C}
 \usepackage[twoside,paperheight=9in,paperwidth=6in,top=0.5in,bottom=0.5in,bindingoffset=0.25in, left=0.5in, right=0.5in]{geometry}
 
 \begin{document}
+% Maybe fix text overflow into margins? It does but it makes some lines
+% ... sloppy.
+%\sloppy
 
 \author{Andrew G. Alt}
 \title{Mental Dimensions}
