@@ -11,8 +11,9 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - name: Install dependencies
-        run: sudo apt-get install -y texlive-latex-base
+        run: |
+          echo ttf-mscorefonts-installer msttcorefonts/accepted-mscorefonts-eula select true | sudo debconf-set-selections
+          sudo apt-get install -y texlive-xetex texlive-latex-base ttf-mscorefonts-installer
+          sudo fc-cache -f
       - name: Compile LaTeX document
-        run: pdflatex -synctex=1 -interaction=nonstopmode "main".tex
-
-
+        run: xelatex -synctex=1 -interaction=nonstopmode "main".tex
