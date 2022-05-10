@@ -1,0 +1,37 @@
+% TOC
+% 
+% This macro can be used for Table Of Contents portion of a paper
+% or book. To use this macro package, put the line
+%        \input toc
+% at the top of your file. The following are the symbols that may be
+% used with this macro:
+% 
+% \tocindent{ SIZE }
+%        This is used to indent the table of contents
+%        entries by "SIZE". "SIZE" is something like
+%        `50pt', `1.0truein' or something similar.
+%        (default=0pt)
+% \tochead{ HEAD }
+%        This is essentially the same as the definition
+%        `\leftline'. The table of cantents headers are
+%        not indented by `\tocindent'.
+% \tocline{ SECTION }{ PAGE }
+%        This is the standard table of contents line
+%        containing a section and page number separated
+%        with either dots or a line. This entry is in-
+%        dented by `\tocindent'.
+% \filldot
+%        This will make the filling between the `\tocline'
+%        section and page be `\dotfill'. (default)
+% \filline
+%        This will make the filling between the `\tocline'
+%        section and page be `\hrulefil' (a solid horizon-
+%        tal line).
+% 
+\def\xyztocind{\hskip 0pt}
+\def\xyztocfil{\dotfill}
+\def\tocindent#1{\def\xyztocind{\hskip #1}}
+\def\filldot{\def\xyztocfil{\dotfill}}
+\def\filline{\def\xyztocfil{\hrulefill}}
+\def\tocline#1#2{\hbox to \hsize{\xyztocind #1\ \xyztocfil\ #2}}
+\def\tochead#1{\hbox to \hsize{#1\hfill}}
