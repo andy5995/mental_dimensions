@@ -15,9 +15,11 @@
 
 \usepackage[twoside,paperheight=9in,paperwidth=6in,top=0.5in,bottom=0.5in,bindingoffset=0.25in, left=0.5in, right=0.5in]{geometry}
 
-\input toc
+\usepackage{fancyhdr}
 
 \begin{document}
+
+
 % fixes text overflowing into the right margin, keeps things aligned
 %
 % Proper nouns should not be hyphenated
@@ -29,8 +31,15 @@
 \date{May 2022}
 
 
+%\newpagestyle{storybody}{%
+%	\headrule
+%	\sethead[\thepage][Andrew G. Alt][\thesection]  % even
+%	{}{Mental Dimensions}{\thepage}} % odd
+
+
 \frontmatter
 % \maketitle
+\thispagestyle{empty}
 
 \begin{center}
 	\rule{4.5in}{2pt}
@@ -77,13 +86,18 @@ Web site: http://mentaldimensions.net/
 
 
 \chapter{dedication}
-\tableofcontents
+\thispagestyle{empty}
 
-\pagestyle{myheadings}
+\clearpage
+\tableofcontents
+\clearpage
+
+% \pagestyle{myheadings}
 \mainmatter
 
 % Don't hyphenate words with capital letters (proper nouns)
 \uchyph=0
+\thispagestyle{empty}
 
 \include{./stories/hovering}
 \include{./stories/enchanted_balls}
