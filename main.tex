@@ -15,10 +15,14 @@
 
 \usepackage[twoside,paperheight=9in,paperwidth=6in,top=0.5in,bottom=0.5in,bindingoffset=0.25in, left=0.5in, right=0.5in]{geometry}
 
+\input toc
+
 \begin{document}
-% Maybe fix text overflow into margins? It does but it makes some lines
-% ... sloppy.
-%\sloppy
+% fixes text overflowing into the right margin, keeps things aligned
+%
+% Proper nouns should not be hyphenated
+% http://theworldsgreatestbook.com/book-design-basics-hyphens-justification/
+\sloppy
 
 \author{Andrew G. Alt}
 \title{Mental Dimensions}
@@ -77,6 +81,10 @@ Web site: http://mentaldimensions.net/
 
 \pagestyle{myheadings}
 \mainmatter
+
+% Don't hyphenate words with capital letters (proper nouns)
+\uchyph=0
+
 \include{./stories/hovering}
 \include{./stories/enchanted_balls}
 \include{./stories/obedient_parents}
