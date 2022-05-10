@@ -16,7 +16,7 @@
 \usepackage[twoside,paperheight=9in,paperwidth=6in,top=0.5in,bottom=0.5in,bindingoffset=0.25in, left=0.5in, right=0.5in]{geometry}
 
 \usepackage{fancyhdr}
-
+\usepackage{changepage}
 \begin{document}
 
 
@@ -40,7 +40,6 @@
 \frontmatter
 % \maketitle
 \thispagestyle{empty}
-
 \begin{center}
 	\rule{4.5in}{2pt}
 
@@ -60,30 +59,8 @@
 	\rule{4.5in}{2pt}
 \end{center}
 
-\newpage
-\begin{center}
-
-\vspace{2.5in}
-Mental Dimensions
-\\
-
-Tales of Fantasy for a New Generation
-\\
-
-First paperback edition published in 2014
-
-This edition first published in 2022
-
-ISBN-13: 9798809557115
-
-Copyright © 2014 by Andrew G. Alt
-All rights reserved
-
-Web site: http://mentaldimensions.net/
-
-\textit{This book is a work of fiction. Names, characters, locations, and   incidents are products of the author’s imagination. Any resemblance to actual events or places or persons, living or dead, is coincidental.}
-\end{center}
-
+\clearpage
+\input{copyright}
 
 \chapter{dedication}
 \thispagestyle{empty}
