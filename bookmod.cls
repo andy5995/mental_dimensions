@@ -355,9 +355,9 @@
 \def\@chapter[#1]#2{\ifnum \c@secnumdepth >\m@ne
                        \if@mainmatter
                          \refstepcounter{chapter}%
-%                         \typeout{\@chapapp\space\thechapter.}%
+                         \typeout{\@chapapp\space\thechapter.}%
                          \addcontentsline{toc}{chapter}%
-                                   {\protect\numberline{\thechapter}#1}%
+                                   {\protect#1}% modified with chapter number removed
                        \else
                          \addcontentsline{toc}{chapter}{#1}%
                        \fi
@@ -374,7 +374,7 @@
                       \@afterheading
                     \fi}
 \def\@makechapterhead#1{%
-  \vspace*{50\p@}%
+  \vspace*{20\p@}%
   {\parindent \z@ \raggedright \normalfont
 %    \ifnum \c@secnumdepth >\m@ne
 %      \if@mainmatter
@@ -626,7 +626,7 @@
       \leavevmode \bfseries
       \advance\leftskip\@tempdima
       \hskip -\leftskip
-      #1\nobreak\hfil
+      #1\nobreak\dotfill % make dots between chapter name and page number
       \nobreak\hb@xt@\@pnumwidth{\hss #2%
                                  \kern-\p@\kern\p@}\par
       \penalty\@highpenalty
