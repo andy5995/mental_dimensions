@@ -1,5 +1,6 @@
 \documentclass[12pt,openright,draft,titlepage]{bookmod}
 %\usepackage[utf8]{inputenc}
+\usepackage[twoside,paperheight=9in,paperwidth=6in,top=0.5in,bottom=0.5in,bindingoffset=0.25in, left=0.5in, right=0.5in]{geometry}
 
 % file:///usr/share/texstudio/latex2e.html#fontenc-package
 %\usepackage[font_encoding]{fontenc}
@@ -13,35 +14,10 @@
 
 % \usepackage{graphicx}
 
-\usepackage[twoside,paperheight=9in,paperwidth=6in,top=0.5in,bottom=0.5in,bindingoffset=0.25in, left=0.5in, right=0.5in]{geometry}
-
 \usepackage{fancyhdr}
 \usepackage{changepage} % used for 'adjustwidth'
 
-% \usepackage{fourier}
-%\usepackage{microtype}
-
-%\usepackage[pagestyles]{titlesec}
-%\assignpagestyle{\chapter}{empty}
-%\usepackage{titletoc}%
-%
-%\titlecontents{chapter}[0em]{\smallskip\bfseries}%\vspace{1cm}%
-%{}%
-%{\itshape\bfseries}%numberless%
-%{\hfill\contentspage}[\medskip]%
-%%
-%\titlecontents{section}[4.25em]{\smallskip}%
-%{\contentslabel[\thecontentslabel]{2em}}%numbered
-%{\hspace*{-1em}}%numberless
-%{\hfill\contentspage}[\smallskip]%
-%%
-%\titlecontents{subsection}[7em]{}%
-%{\contentslabel[\thecontentslabel]{2.75em}}%numbered
-%{\hspace*{-1em}}%numberless
-%{\hfill\contentspage}[\smallskip]
-
 \begin{document}
-
 
 % fixes text overflowing into the right margin, keeps things aligned
 %
@@ -53,57 +29,19 @@
 \title{Mental Dimensions}
 \date{May 2022}
 
-
-%\newpagestyle{storybody}{%
-%	\headrule
-%	\sethead[\thepage][Andrew G. Alt][\thesection]  % even
-%	{}{Mental Dimensions}{\thepage}} % odd
-
-
 \frontmatter
 % \maketitle
-\thispagestyle{empty}
-\begin{center}
-	\rule{4.5in}{2pt}
-
-	\vspace{10pt}
-	{\Huge Mental Dimensions}
-
-	{\large Tales of Fantasy for a New Generation}
-
-	{\small Second Edition}
-	\rule{4.5in}{2pt}
-
-	\vspace{3in}
-	\rule{4.5in}{2pt}
-
-	{\large By Andrew G. Alt}
-
-	\rule{4.5in}{2pt}
-\end{center}
-
-\clearpage
-
-\input{copyright}
+\include{titlepage}
+\include{copyright}
 
 \clearpage\thispagestyle{empty}
 ~\clearpage\thispagestyle{empty}
 ~\clearpage\thispagestyle{empty}
 
-%\clearpage
-%\thispagestyle{empty}
-%
-%\clearpage
-%\thispagestyle{empty}
+\include{dedication}
 
-\input{dedication}
-
-\thispagestyle{empty}
-\setcounter{secnumdepth}{0}
 \tableofcontents
-
-
-\mainmatter\thispagestyle{empty}
+\mainmatter
 
 % Don't hyphenate words with capital letters (proper nouns)
 \uchyph=0
