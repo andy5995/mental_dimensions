@@ -1,5 +1,5 @@
-\documentclass[12pt,openright,draft,titlepage]{book}
-\usepackage[utf8]{inputenc}
+\documentclass[12pt,openright,draft,titlepage]{bookmod}
+%\usepackage[utf8]{inputenc}
 
 % file:///usr/share/texstudio/latex2e.html#fontenc-package
 %\usepackage[font_encoding]{fontenc}
@@ -16,7 +16,30 @@
 \usepackage[twoside,paperheight=9in,paperwidth=6in,top=0.5in,bottom=0.5in,bindingoffset=0.25in, left=0.5in, right=0.5in]{geometry}
 
 \usepackage{fancyhdr}
-\usepackage{changepage}
+\usepackage{changepage} % used for 'adjustwidth'
+
+% \usepackage{fourier}
+%\usepackage{microtype}
+
+%\usepackage[pagestyles]{titlesec}
+%\assignpagestyle{\chapter}{empty}
+%\usepackage{titletoc}%
+%
+%\titlecontents{chapter}[0em]{\smallskip\bfseries}%\vspace{1cm}%
+%{}%
+%{\itshape\bfseries}%numberless%
+%{\hfill\contentspage}[\medskip]%
+%%
+%\titlecontents{section}[4.25em]{\smallskip}%
+%{\contentslabel[\thecontentslabel]{2em}}%numbered
+%{\hspace*{-1em}}%numberless
+%{\hfill\contentspage}[\smallskip]%
+%%
+%\titlecontents{subsection}[7em]{}%
+%{\contentslabel[\thecontentslabel]{2.75em}}%numbered
+%{\hspace*{-1em}}%numberless
+%{\hfill\contentspage}[\smallskip]
+
 \begin{document}
 
 
@@ -60,17 +83,27 @@
 \end{center}
 
 \clearpage
+
 \input{copyright}
 
-\chapter{dedication}
+\clearpage\thispagestyle{empty}
+~\clearpage\thispagestyle{empty}
+~\clearpage\thispagestyle{empty}
+
+%\clearpage
+%\thispagestyle{empty}
+%
+%\clearpage
+%\thispagestyle{empty}
+
+\input{dedication}
+
 \thispagestyle{empty}
-
-\clearpage
+\setcounter{secnumdepth}{0}
 \tableofcontents
-\clearpage
 
-% \pagestyle{myheadings}
-\mainmatter
+
+\mainmatter\thispagestyle{empty}
 
 % Don't hyphenate words with capital letters (proper nouns)
 \uchyph=0
