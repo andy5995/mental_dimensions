@@ -42,7 +42,7 @@
 %% and covered by LPPL is defined by the unpacking scripts (with
 %% extension .ins) which are part of the distribution.
 \NeedsTeXFormat{LaTeX2e}[1995/12/01]
-\ProvidesClass{book}
+\ProvidesClass{bookmod}
               [2021/10/04 v1.4n
  Standard LaTeX document class]
 \newcommand\@ptsize{}
@@ -746,4 +746,4 @@
 \fi
 \endinput
 %%
-%% End of file `book.cls'.
+%% End of file `bookmod.cls'.
