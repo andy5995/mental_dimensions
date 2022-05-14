@@ -374,7 +374,7 @@
                       \@afterheading
                     \fi}
 \def\@makechapterhead#1{%
-  \vspace*{20\p@}%
+%  \vspace*{5\p@}%
   {\parindent \z@ \raggedright \normalfont
 %    \ifnum \c@secnumdepth >\m@ne
 %      \if@mainmatter
@@ -384,7 +384,7 @@
 %      \fi
 %    \fi
     \interlinepenalty\@M
-    \Huge \bfseries #1\par\nobreak
+    \huge \bfseries #1\par\nobreak
     \vskip 40\p@
   }}
 \def\@schapter#1{\if@twocolumn
@@ -394,7 +394,7 @@
                    \@afterheading
                  \fi}
 \def\@makeschapterhead#1{%
-  \vspace*{50\p@}%
+%  \vspace*{50\p@}%
   {\parindent \z@ \raggedright
     \normalfont
     \interlinepenalty\@M
