@@ -1,16 +1,16 @@
 \contentsline {chapter}{Hovering on the Winds of Thought}{1}{}%
 \contentsline {chapter}{The Search for the Enchanted Balls}{5}{}%
-\contentsline {chapter}{The Obedient Parents}{25}{}%
-\contentsline {chapter}{The Grasshopper and the the Cliff}{35}{}%
-\contentsline {chapter}{The Problematic 6000}{37}{}%
-\contentsline {chapter}{The Pebble}{51}{}%
-\contentsline {chapter}{The Camel in the Desert}{53}{}%
-\contentsline {chapter}{The Magic Brain}{57}{}%
-\contentsline {chapter}{The Wall}{65}{}%
-\contentsline {chapter}{The Prisoner}{71}{}%
-\contentsline {chapter}{The Blind Man and His Neighbors}{75}{}%
-\contentsline {chapter}{Glass Prison}{81}{}%
-\contentsline {chapter}{A Shared Ending}{83}{}%
-\contentsline {chapter}{Mount Solation}{99}{}%
-\contentsline {chapter}{Damned Tears}{109}{}%
-\contentsline {chapter}{The Money Trees}{113}{}%
+\contentsline {chapter}{The Obedient Parents}{27}{}%
+\contentsline {chapter}{The Grasshopper and the the Cliff}{37}{}%
+\contentsline {chapter}{The Problematic 6000}{39}{}%
+\contentsline {chapter}{The Pebble}{53}{}%
+\contentsline {chapter}{The Camel in the Desert}{55}{}%
+\contentsline {chapter}{The Magic Brain}{59}{}%
+\contentsline {chapter}{The Wall}{67}{}%
+\contentsline {chapter}{The Prisoner}{73}{}%
+\contentsline {chapter}{The Blind Man and His Neighbors}{77}{}%
+\contentsline {chapter}{Glass Prison}{83}{}%
+\contentsline {chapter}{A Shared Ending}{85}{}%
+\contentsline {chapter}{Mount Solation}{101}{}%
+\contentsline {chapter}{Damned Tears}{111}{}%
+\contentsline {chapter}{The Money Trees}{115}{}%
