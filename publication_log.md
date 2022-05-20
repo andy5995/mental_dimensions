@@ -3,7 +3,12 @@
 
 ## Edition 1
 
-May 2022
+2022-05-20
+
+Submitted Edition01/Paperback/Book  8.5 x 11_ed1_v2_04.pdf (replaces
+version from yesterday). No change to revision number on copyright page
+
+2022-05-19
 
 Submitted 8.5 x 11_ed1_v2_03_released.pdf (ed 1, rev 2)
 
@@ -13,6 +18,8 @@ correction and same revision number.
 
 # Hardcover
 
-## Edition 2
+## Edition 1
+
+2022-05-19
 
 Submitted Hardcover_6x9_ed1_v1_01_released.pdf (ed 1 rev 1)
