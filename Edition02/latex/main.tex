@@ -1,6 +1,6 @@
 \documentclass[12pt,openright,draft,titlepage]{bookmod}
 %\usepackage[utf8]{inputenc}
-\usepackage[twoside,paperheight=9in,paperwidth=6in,top=0.5in,bottom=0.5in,bindingoffset=0.25in, left=0.5in, right=0.5in]{geometry}
+\usepackage[twoside,paperheight=9in,paperwidth=6in,top=0.5in,bottom=0.5in,bindingoffset=0.2in, left=0.75in, right=0.75in]{geometry}
 
 \newcommand{\timesep}{%
 	{\small \begin{center}
@@ -39,18 +39,35 @@
 \include{titlepage}
 \include{copyright}
 
-\clearpage\thispagestyle{empty}
-~\clearpage\thispagestyle{empty}
-~\clearpage\thispagestyle{empty}
+\pagestyle{fancy}
+\fancyfoot{}
+\fancyhead{}
+\renewcommand{\headrulewidth}{0pt}
+\fancyfoot[C]{\thepage}
+
+\clearpage\thispagestyle{plain}
+~\clearpage\thispagestyle{plain}
+~\clearpage\thispagestyle{plain}
 
 \include{dedication}
 
 \tableofcontents
 \mainmatter
 
+
 % Don't hyphenate words with capital letters (proper nouns)
 \uchyph=0
-\thispagestyle{empty}
+
+\fancyfoot{}
+\setlength{\headheight}{15pt}
+\renewcommand{\headrulewidth}{0.4pt}
+\fancyhead[RO,LE]{\thepage}
+\fancyhead[CO]{Mental Dimensions}
+\fancyhead[CE]{Andrew G. Alt}
+
+\setlength{\parindent}{2em}
+\Large
+\baselineskip=1.15\baselineskip
 
 \include{./stories/hovering}
 \include{./stories/enchanted_balls}

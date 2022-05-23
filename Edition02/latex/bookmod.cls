@@ -374,7 +374,7 @@
                       \@afterheading
                     \fi}
 \def\@makechapterhead#1{%
-%  \vspace*{5\p@}%
+  \vspace*{150\p@}%
   {\parindent \z@ \raggedright \normalfont
 %    \ifnum \c@secnumdepth >\m@ne
 %      \if@mainmatter
@@ -394,7 +394,7 @@
                    \@afterheading
                  \fi}
 \def\@makeschapterhead#1{%
-%  \vspace*{50\p@}%
+%  \vspace*{50\p@}% Contents heading
   {\parindent \z@ \raggedright
     \normalfont
     \interlinepenalty\@M
