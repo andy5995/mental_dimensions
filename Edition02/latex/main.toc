@@ -15,3 +15,4 @@
 \contentsline {chapter}{Mount Solation}{123}{}%
 \contentsline {chapter}{Damned Tears}{133}{}%
 \contentsline {chapter}{The Money Trees}{137}{}%
+\contentsline {chapter}{Rip Van Winkle}{157}{}%
