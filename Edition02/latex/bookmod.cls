@@ -374,7 +374,7 @@
                       \@afterheading
                     \fi}
 \def\@makechapterhead#1{%
-  \vspace*{150\p@}%
+  \vspace*{100\p@}%
   {\parindent \z@ \raggedright \normalfont
 %    \ifnum \c@secnumdepth >\m@ne
 %      \if@mainmatter

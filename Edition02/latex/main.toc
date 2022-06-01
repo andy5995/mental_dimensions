@@ -9,10 +9,10 @@
 \contentsline {chapter}{The Magic Brain}{75}{}%
 \contentsline {chapter}{The Wall}{83}{}%
 \contentsline {chapter}{The Prisoner}{89}{}%
-\contentsline {chapter}{The Blind Man and His Neighbors}{95}{}%
-\contentsline {chapter}{Glass Prison}{101}{}%
-\contentsline {chapter}{A Shared Ending}{105}{}%
-\contentsline {chapter}{Mount Solation}{123}{}%
-\contentsline {chapter}{Damned Tears}{133}{}%
-\contentsline {chapter}{The Money Trees}{137}{}%
-\contentsline {chapter}{Rip Van Winkle}{157}{}%
+\contentsline {chapter}{The Blind Man and His Neighbors}{93}{}%
+\contentsline {chapter}{Glass Prison}{99}{}%
+\contentsline {chapter}{A Shared Ending}{101}{}%
+\contentsline {chapter}{Mount Solation}{117}{}%
+\contentsline {chapter}{Damned Tears}{127}{}%
+\contentsline {chapter}{The Money Trees}{131}{}%
+\contentsline {chapter}{Rip Van Winkle}{151}{}%
