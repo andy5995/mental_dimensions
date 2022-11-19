@@ -7,12 +7,12 @@
 \contentsline {chapter}{The Pebble}{67}{}%
 \contentsline {chapter}{The Camel in the Desert}{71}{}%
 \contentsline {chapter}{The Magic Brain}{75}{}%
-\contentsline {chapter}{The Wall}{83}{}%
-\contentsline {chapter}{The Prisoner}{89}{}%
-\contentsline {chapter}{The Blind Man and His Neighbors}{93}{}%
-\contentsline {chapter}{Glass Prison}{99}{}%
-\contentsline {chapter}{A Shared Ending}{101}{}%
-\contentsline {chapter}{Mount Solation}{117}{}%
-\contentsline {chapter}{Damned Tears}{127}{}%
-\contentsline {chapter}{The Money Trees}{131}{}%
-\contentsline {chapter}{Rip Van Winkle}{151}{}%
+\contentsline {chapter}{The Wall}{87}{}%
+\contentsline {chapter}{The Prisoner}{93}{}%
+\contentsline {chapter}{The Blind Man and His Neighbors}{97}{}%
+\contentsline {chapter}{Glass Prison}{103}{}%
+\contentsline {chapter}{A Shared Ending}{105}{}%
+\contentsline {chapter}{Mount Solation}{121}{}%
+\contentsline {chapter}{Damned Tears}{131}{}%
+\contentsline {chapter}{The Money Trees}{135}{}%
+\contentsline {chapter}{Rip Van Winkle}{155}{}%
