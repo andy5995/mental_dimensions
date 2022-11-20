@@ -4,3 +4,4 @@ main.pdf
 *.gz
 *.~lock.*
 /Edition02/latex/
+main.toc
