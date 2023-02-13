@@ -16,5 +16,5 @@ jobs:
           sudo fc-cache -f
       - name: Compile LaTeX document
         run: |
-          cd Edition02/latex
+          cd Edition01/latex
           xelatex -synctex=1 -interaction=nonstopmode "main".tex
