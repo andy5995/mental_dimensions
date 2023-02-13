@@ -34,3 +34,15 @@ correction and same revision number.
 2022-05-19
 
 Submitted Hardcover_6x9_ed1_v1_01_released.pdf (ed 1 rev 1)
+
+May 17, 2022
+
+Hard_cover_Book  6 x 9_ed2_07 used for first proof (I think)
+
+Feb 12, 2023
+
+2 hardcover proofs ordered (Edition 1 rev 2)
+Cover: fantasy_style_cover_painting_02.jpg
+Mental_DimensionsDownloadable_Proof_ed1_rev2_01.PDF
+
+
