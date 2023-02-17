@@ -1,7 +1,8 @@
 *.aux
 *.log
 main.pdf
+paperback.pdf
+hardcover.pdf
+*.toc
 *.gz
 *.~lock.*
-/Edition02/latex/
-main.toc
