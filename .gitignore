@@ -6,3 +6,4 @@ hardcover.pdf
 *.toc
 *.gz
 *.~lock.*
+!hardcover_01.pdf

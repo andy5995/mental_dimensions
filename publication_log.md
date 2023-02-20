@@ -45,4 +45,8 @@ Feb 12, 2023
 Cover: fantasy_style_cover_painting_02.jpg
 Mental_DimensionsDownloadable_Proof_ed1_rev2_01.PDF
 
+Feb 20, 2023
+
+Published hardcover_rev_01.pdf (2nd Ed.)
+
 
