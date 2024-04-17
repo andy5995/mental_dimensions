@@ -53,4 +53,6 @@ Feb 21, 2023
 
 Published paperback_rev_01.pdf (2nd Ed.)
 
+Apr 16, 2024
 
+Published paperback_rev02.pdf and hardcover_rev02.pdf
