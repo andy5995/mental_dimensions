@@ -1,0 +1,56 @@
+\documentclass[12pt,openright,final,titlepage]{bookmod}
+\usepackage[twoside,paperheight=11in,paperwidth=8.5in,top=0.75in,bottom=0.75in,bindingoffset=0.2in, left=0.75in, right=0.75in]{geometry}
+
+\newcommand{\timesep}{%
+	{\small \begin{center}
+			∞ ∞ ∞
+	\end{center}}
+}
+% file:///usr/share/texstudio/latex2e.html#fontenc-package
+%\usepackage[font_encoding]{fontenc}
+
+% Use with xelatex or lualatex
+\usepackage{fontspec}
+
+% https://tug.org/FontCatalogue/gnufreefontsans/
+% included in Arch Linux package gnu-free-fonts
+\setmainfont{FreeSans}
+
+% \usepackage{graphicx}
+
+\usepackage{fancyhdr}
+\usepackage{changepage} % used for 'adjustwidth'
+
+\usepackage{hyperref} % Add this line to enable hyperlinks
+
+\begin{document}
+
+% fixes text overflowing into the right margin, keeps things aligned
+%
+% Proper nouns should not be hyphenated
+% http://theworldsgreatestbook.com/book-design-basics-hyphens-justification/
+\sloppy
+
+\author{Andrew G. Alt}
+\title{Mental Dimensions}
+\date{Aug 2024}
+
+\frontmatter
+% \maketitle
+\include{paperback_titlepage}
+
+\clearpage\thispagestyle{plain}
+\thispagestyle{empty}
+\hfill
+
+\clearpage\thispagestyle{plain}
+\thispagestyle{empty}
+\hfill
+
+\include{kindle_copyright}
+
+\input{common_content}
+
+% bibliography, glossary and index would go here.
+
+\end{document}
