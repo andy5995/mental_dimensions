@@ -56,3 +56,8 @@ Published paperback_rev_01.pdf (2nd Ed.)
 Apr 16, 2024
 
 Published paperback_rev02.pdf and hardcover_rev02.pdf
+
+Aug 03, 2024
+
+Published the Kindle Edition (edition 2, rev 1, but includes rev 2 changes
+from paperback)
