@@ -1,6 +1,7 @@
 *.aux
 *.log
 main.pdf
+kindle.pdf
 paperback.pdf
 hardcover.pdf
 *.toc
